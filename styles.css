@@ -1,0 +1,42 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    background-color: rgb(43, 48, 43);
+}
+
+
+main {
+    background-color: rgb(43, 48, 43);
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+    
+}
+.search-box {
+    width: 40%;
+}
+.container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(43, 48, 43);
+
+
+}
+img {
+    width: 353px;
+    height: 278px;
+}
+.text-center {
+    margin: 5px;
+}
+#addmoreBtn {
+    display: none;
+    margin: 20px;
+    position: fixed;
+    bottom: 10px;
+}
