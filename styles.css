@@ -16,6 +16,21 @@ main {
     
     
 }
+.loading {
+    color: white;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#heading {
+    width: 100%;
+    text-align: center;
+    color: white;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
 .search-box {
     width: 40%;
 }
@@ -34,9 +49,17 @@ img {
 .text-center {
     margin: 5px;
 }
-#addmoreBtn {
-    display: none;
-    margin: 20px;
-    position: fixed;
-    bottom: 10px;
+.pagination-box{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+
+@media screen and (max-width: 600px) {
+    .search-box {
+        width: 80%;
+    }
 }
