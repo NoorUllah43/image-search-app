@@ -1,6 +1,6 @@
 # image-search-app
 
-##Live Previwe
+## Live Previwe
 https://noorullah43.github.io/image-search-app/
 
 
